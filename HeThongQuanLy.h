@@ -34,7 +34,7 @@ public:
     void hienThiDanhSachSinhVienXepTen();
 };
 
-// Khai báo các hàm logic nghiệp vụ tự do bên ngoài class
+
 float quyDoiHe4(float diem10);
 std::string xepLoaiHocLuc(float gpa4);
 void sapXepSinhVienTheoTen(MangDong<SinhVien>& ds);

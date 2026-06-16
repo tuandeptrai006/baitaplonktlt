@@ -4,9 +4,6 @@
 
 using namespace std;
 
-// =========================================================================
-// LOGIC NGHIỆP VỤ LẺ
-// =========================================================================
 
 float quyDoiHe4(float diem10) {
     if (diem10 >= 8.5) return 4.0;
@@ -37,9 +34,6 @@ void sapXepSinhVienTheoTen(MangDong<SinhVien>& ds) {
     }
 }
 
-// =========================================================================
-// TRIỂN KHAI CÁC PHƯƠNG THỨC CỦA CLASS HETHONGQUANLY
-// =========================================================================
 
 MonHoc* HeThongQuanLy::timMonHoc(string maMon) {
     for (int i = 0; i < dsMonHoc.getSize(); i++) {

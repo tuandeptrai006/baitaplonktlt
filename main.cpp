@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     HeThongQuanLy ql;
-    ql.taiToanBoHeThong();   // Nạp dữ liệu cũ từ file
-    ql.khoiTaoDuLieuMau();   // Nạp thêm data mẫu nếu file rỗng
+    ql.taiToanBoHeThong(); 
+    ql.khoiTaoDuLieuMau();   
 
     int luaChon;
     do {
